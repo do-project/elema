@@ -1,0 +1,20 @@
+{
+	"RootView":{
+		"height":"854",
+		"views":[
+			{
+				"bgColor":"8000FF00",
+				"id":"do_ProgressBar_1",
+				"height":"78",
+				"style":"small",
+				"width":"79",
+				"type":"do_ProgressBar",
+				"x":"200"
+			}
+		],
+		"width":"480",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}
