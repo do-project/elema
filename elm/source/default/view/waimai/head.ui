@@ -1,0 +1,29 @@
+{
+	"RootView":{
+		"height":"120",
+		"views":[
+			{
+				"id":"img",
+				"scale":"fillxory",
+				"height":"45",
+				"width":"45",
+				"type":"do_ImageView",
+				"y":"23",
+				"x":"38"
+			},
+			{
+				"id":"text",
+				"height":"30",
+				"width":"120",
+				"textAlign":"center",
+				"type":"do_Label",
+				"fontSize":"20",
+				"y":"90"
+			}
+		],
+		"width":"120",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}
