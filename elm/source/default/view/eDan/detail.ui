@@ -4,8 +4,8 @@
 		"height":"854",
 		"views":[
 			{
-				"id":"do_ALayout_1",
 				"bgColor":"339DFDFF",
+				"id":"do_ALayout_1",
 				"views":[
 					{
 						"id":"action_back",
@@ -14,7 +14,7 @@
 								"id":"do_ImageView_1",
 								"height":"40",
 								"source":"source://image/abc_ic_ab_back_mtrl_am_alpha.png",
-								"width":"30",
+								"width":"35",
 								"type":"do_ImageView",
 								"y":"19",
 								"x":"19"
@@ -24,12 +24,12 @@
 						"type":"do_ALayout"
 					},
 					{
-						"id":"do_Label_1",
-						"text":"随缘餐厅",
+						"id":"lb",
 						"fontColor":"FFFFFFFF",
+						"text":"随缘餐厅",
 						"width":"300",
+						"fontSize":"28",
 						"type":"do_Label",
-						"fontSize":"25",
 						"x":"80"
 					}
 				],
@@ -45,22 +45,22 @@
 						"height":"-1",
 						"views":[
 							{
-								"id":"do_ALayout_9",
 								"bgColor":"FFFFFFFF",
-								"height":"160",
+								"id":"do_ALayout_9",
+								"height":"240",
 								"views":[
 									{
 										"id":"do_ALayout_13",
+										"height":"120",
 										"views":[
 											{
 												"id":"do_Label_2",
 												"text":"订单已完成",
 												"height":"40",
 												"width":"460",
-												"fontStyle":"bold",
+												"fontSize":"28",
 												"type":"do_Label",
-												"fontSize":"20",
-												"y":"10",
+												"y":"20",
 												"x":"20"
 											},
 											{
@@ -68,9 +68,9 @@
 												"text":"订单超过3小时自动完成",
 												"height":"30",
 												"width":"460",
+												"fontSize":"23",
 												"type":"do_Label",
-												"fontSize":"18",
-												"y":"50",
+												"y":"70",
 												"x":"20"
 											}
 										],
@@ -78,7 +78,17 @@
 										"type":"do_ALayout"
 									},
 									{
+										"bgColor":"C0C0C0FF",
+										"id":"do_ALayout_20",
+										"height":"1",
+										"width":"440",
+										"type":"do_ALayout",
+										"y":"120",
+										"x":"17"
+									},
+									{
 										"id":"do_ALayout_14",
+										"height":"120",
 										"views":[
 											{
 												"id":"do_ImageView_2",
@@ -86,7 +96,7 @@
 												"source":"source://image/order_timeline_order_blue.png",
 												"width":"40",
 												"type":"do_ImageView",
-												"y":"10",
+												"y":"20",
 												"x":"100"
 											},
 											{
@@ -95,7 +105,7 @@
 												"source":"source://image/order_timeline_restaurant_blue.png",
 												"width":"40",
 												"type":"do_ImageView",
-												"y":"10",
+												"y":"20",
 												"x":"220"
 											},
 											{
@@ -104,7 +114,7 @@
 												"source":"source://image/order_timeline_arrive_blue.png",
 												"width":"40",
 												"type":"do_ImageView",
-												"y":"10",
+												"y":"20",
 												"x":"340"
 											},
 											{
@@ -112,8 +122,9 @@
 												"text":"订单已提交",
 												"height":"30",
 												"textAlign":"center",
+												"fontSize":"18",
 												"type":"do_Label",
-												"y":"50",
+												"y":"70",
 												"x":"70"
 											},
 											{
@@ -121,8 +132,9 @@
 												"text":"商家已接单",
 												"height":"30",
 												"textAlign":"center",
+												"fontSize":"18",
 												"type":"do_Label",
-												"y":"50",
+												"y":"70",
 												"x":"190"
 											},
 											{
@@ -130,63 +142,54 @@
 												"text":"已送达",
 												"height":"30",
 												"textAlign":"center",
+												"fontSize":"18",
 												"type":"do_Label",
-												"fontSize":"15",
-												"y":"50",
+												"y":"70",
 												"x":"310"
 											},
 											{
-												"id":"do_ALayout_15",
 												"bgColor":"339DFDFF",
+												"id":"do_ALayout_15",
 												"height":"1",
 												"width":"60",
 												"type":"do_ALayout",
-												"y":"30",
+												"y":"40",
 												"x":"150"
 											},
 											{
-												"id":"do_ALayout_16",
 												"bgColor":"339DFDFF",
+												"id":"do_ALayout_16",
 												"height":"1",
 												"width":"60",
 												"type":"do_ALayout",
-												"y":"30",
+												"y":"40",
 												"x":"270"
 											}
 										],
 										"width":"480",
 										"type":"do_ALayout",
-										"y":"80"
-									},
-									{
-										"id":"do_ALayout_20",
-										"bgColor":"C0C0C0FF",
-										"height":"1",
-										"width":"440",
-										"type":"do_ALayout",
-										"y":"80",
-										"x":"20"
+										"y":"120"
 									}
 								],
 								"width":"480",
-								"margin":"10,0,0,0",
+								"margin":"20,0,0,0",
 								"type":"do_ALayout",
-								"y":"10"
+								"y":"20"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_10",
-								"height":"110",
+								"bgColor":"FFFFFFFF",
+								"height":"140",
 								"views":[
 									{
 										"id":"do_ALayout_17",
-										"height":"55",
+										"height":"70",
 										"views":[
 											{
 												"id":"do_ImageView_5",
-												"height":"30",
+												"height":"41",
 												"source":"source://image/kuai.png",
-												"width":"30",
+												"width":"41",
 												"type":"do_ImageView",
 												"y":"15",
 												"x":"20"
@@ -204,12 +207,12 @@
 											{
 												"id":"do_Label_7",
 												"text":"随缘餐厅",
-												"height":"55",
+												"height":"70",
 												"width":"200",
 												"fontStyle":"bold",
+												"fontSize":"28",
 												"type":"do_Label",
-												"fontSize":"20",
-												"x":"60"
+												"x":"88"
 											}
 										],
 										"width":"480",
@@ -217,7 +220,7 @@
 									},
 									{
 										"id":"do_ALayout_18",
-										"height":"55",
+										"height":"70",
 										"views":[
 											{
 												"id":"do_ALayout_21",
@@ -234,16 +237,19 @@
 													},
 													{
 														"id":"do_Label_8",
+														"fontColor":"C0C0C0FF",
 														"text":"联系餐厅",
 														"height":"40",
 														"width":"95",
+														"fontSize":"20",
 														"type":"do_Label",
 														"x":"45"
 													}
 												],
 												"width":"140",
-												"type":"do_ALayout",
 												"border":"C0C0C0FF,2,1",
+												"type":"do_ALayout",
+												"y":"10",
 												"x":"20"
 											},
 											{
@@ -261,15 +267,18 @@
 													},
 													{
 														"id":"do_Label_9",
+														"fontColor":"C0C0C0FF",
 														"text":"联系客服",
 														"height":"40",
+														"fontSize":"20",
 														"type":"do_Label",
 														"x":"45"
 													}
 												],
 												"width":"140",
-												"type":"do_ALayout",
 												"border":"C0C0C0FF,2,1",
+												"type":"do_ALayout",
+												"y":"10",
 												"x":"170"
 											},
 											{
@@ -287,285 +296,154 @@
 													},
 													{
 														"id":"do_Label_10",
+														"fontColor":"C0C0C0FF",
 														"text":"投诉反馈",
 														"height":"40",
+														"fontSize":"20",
 														"type":"do_Label",
 														"x":"45"
 													}
 												],
 												"width":"140",
-												"type":"do_ALayout",
 												"border":"C0C0C0FF,2,1",
+												"type":"do_ALayout",
+												"y":"10",
 												"x":"320"
 											}
 										],
 										"width":"480",
 										"type":"do_ALayout",
-										"y":"55"
+										"y":"70"
 									}
 								],
 								"width":"480",
-								"margin":"10,0,0,0",
+								"margin":"20,0,0,0",
 								"type":"do_ALayout",
-								"y":"180"
+								"y":"280"
 							},
 							{
-								"id":"do_ALayout_11",
 								"bgColor":"FFFFFFFF",
-								"height":"260",
+								"id":"do_ALayout_11",
+								"height":"-1",
 								"views":[
 									{
-										"id":"do_ALayout_24",
-										"height":"60",
+										"id":"do_LinearLayout_2",
+										"height":"-1",
 										"views":[
 											{
-												"id":"do_Label_11",
-												"text":"合计",
-												"height":"60",
-												"width":"300",
-												"fontStyle":"bold",
-												"type":"do_Label",
-												"fontSize":"20",
-												"x":"20"
+												"id":"listview",
+												"height":"-1",
+												"templates":"source://view/eDan/detail_cell0.ui",
+												"width":"480",
+												"type":"do_ListView"
 											},
 											{
-												"id":"do_Label_12",
-												"text":"3份",
-												"height":"60",
-												"width":"60",
-												"textAlign":"right",
-												"type":"do_Label",
-												"fontSize":"20",
-												"x":"340"
-											},
-											{
-												"id":"do_Label_13",
-												"text":"￥24",
-												"fontColor":"FF8000FF",
-												"height":"60",
-												"width":"50",
-												"textAlign":"right",
-												"type":"do_Label",
-												"fontSize":"20",
-												"x":"410"
-											}
-										],
-										"width":"480",
-										"type":"do_ALayout"
-									},
-									{
-										"id":"do_ALayout_25",
-										"height":"60",
-										"views":[
-											{
-												"id":"do_Label_14",
-												"fontColor":"808080FF",
-												"text":"鱼香肉丝饭",
-												"height":"60",
-												"width":"300",
-												"type":"do_Label",
-												"fontSize":"18",
-												"x":"20"
-											},
-											{
-												"id":"do_Label_15",
-												"fontColor":"808080FF",
-												"text":"×3",
-												"height":"60",
-												"width":"60",
-												"textAlign":"right",
-												"type":"do_Label",
-												"fontSize":"18",
-												"x":"340"
-											},
-											{
-												"id":"do_Label_16",
-												"text":"￥33",
-												"fontColor":"FF8000FF",
-												"height":"60",
-												"width":"50",
-												"textAlign":"right",
-												"type":"do_Label",
-												"fontSize":"20",
-												"x":"410"
-											}
-										],
-										"width":"480",
-										"type":"do_ALayout",
-										"y":"60"
-									},
-									{
-										"id":"do_ALayout_26",
-										"height":"60",
-										"views":[
-											{
-												"id":"do_Label_17",
-												"fontColor":"FF8000FF",
-												"text":"在线支付立减优惠",
-												"height":"60",
-												"width":"300",
-												"type":"do_Label",
-												"fontSize":"18",
-												"x":"20"
-											},
-											{
-												"id":"do_Label_18",
-												"fontColor":"FF8000FF",
-												"text":"×1",
-												"height":"60",
-												"width":"60",
-												"textAlign":"right",
-												"type":"do_Label",
-												"fontSize":"18",
-												"x":"340"
-											},
-											{
-												"id":"do_Label_19",
-												"fontColor":"FF8000FF",
-												"text":"－￥9",
-												"height":"60",
-												"width":"50",
-												"textAlign":"right",
-												"type":"do_Label",
-												"fontSize":"18",
-												"x":"410"
-											}
-										],
-										"width":"480",
-										"type":"do_ALayout",
-										"y":"120"
-									},
-									{
-										"id":"do_ALayout_27",
-										"views":[
-											{
-												"id":"do_ALayout_28",
-												"height":"40",
+												"id":"do_ALayout_27",
+												"height":"90",
 												"views":[
 													{
-														"id":"do_Label_20",
-														"fontColor":"808080FF",
-														"text":"再来一份",
-														"height":"40",
-														"width":"120",
-														"textAlign":"center",
-														"type":"do_Label",
-														"fontSize":"20"
+														"id":"do_ALayout_28",
+														"height":"50",
+														"views":[
+															{
+																"id":"do_Label_20",
+																"text":"再来一份",
+																"fontColor":"C0C0C0FF",
+																"height":"50",
+																"width":"150",
+																"textAlign":"center",
+																"fontSize":"25",
+																"type":"do_Label"
+															}
+														],
+														"width":"150",
+														"border":"C0C0C0FF,2,1",
+														"type":"do_ALayout",
+														"y":"20",
+														"x":"20"
 													}
 												],
-												"width":"120",
+												"width":"480",
 												"type":"do_ALayout",
-												"border":"808080FF,2,1",
-												"y":"20",
-												"x":"20"
+												"y":"-1"
 											}
 										],
 										"width":"480",
-										"type":"do_ALayout",
-										"y":"180"
-									},
-									{
-										"id":"do_ALayout_29",
-										"bgColor":"C0C0C0FF",
-										"height":"1",
-										"width":"440",
-										"type":"do_ALayout",
-										"y":"60",
-										"x":"20"
-									},
-									{
-										"id":"do_ALayout_30",
-										"bgColor":"C0C0C0FF",
-										"height":"1",
-										"width":"440",
-										"type":"do_ALayout",
-										"y":"120",
-										"x":"20"
-									},
-									{
-										"id":"do_ALayout_31",
-										"bgColor":"C0C0C0FF",
-										"height":"1",
-										"width":"440",
-										"type":"do_ALayout",
-										"y":"180",
-										"x":"20"
+										"type":"do_LinearLayout"
 									}
 								],
 								"width":"480",
-								"margin":"10,0,0,0",
+								"margin":"20,0,0,0",
 								"type":"do_ALayout",
-								"y":"300"
+								"y":"440"
 							},
 							{
-								"id":"do_ALayout_12",
 								"bgColor":"FFFFFFFF",
-								"height":"120",
+								"id":"do_ALayout_12",
+								"height":"140",
 								"views":[
 									{
 										"id":"do_Label_21",
 										"text":"配送消息",
-										"height":"60",
+										"height":"70",
 										"width":"400",
-										"fontStyle":"bold",
+										"fontSize":"28",
 										"type":"do_Label",
-										"fontSize":"20",
 										"x":"20"
 									},
 									{
 										"id":"do_Label_22",
-										"fontColor":"808080FF",
 										"text":"配送方式：有商家配送",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"400",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"20",
-										"y":"60",
+										"y":"70",
 										"x":"20"
 									},
 									{
-										"id":"do_ALayout_32",
 										"bgColor":"C0C0C0FF",
+										"id":"do_ALayout_32",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"60",
+										"y":"70",
 										"x":"20"
 									}
 								],
 								"width":"480",
-								"margin":"10,0,0,0",
+								"margin":"20,0,0,0",
 								"type":"do_ALayout",
-								"y":"570"
+								"y":"459"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_33",
-								"height":"420",
+								"bgColor":"FFFFFFFF",
+								"height":"560",
 								"views":[
 									{
 										"id":"do_ALayout_34",
-										"height":"60",
+										"height":"70",
 										"views":[
 											{
 												"id":"do_Label_27",
-												"fontColor":"808080FF",
 												"text":"饿单号：1001 1406 3254 3256 45",
+												"fontColor":"808080FF",
 												"height":"60",
 												"width":"244",
 												"textAlign":"right",
-												"type":"do_Label",
 												"fontSize":"15",
+												"type":"do_Label",
 												"x":"216"
 											},
 											{
 												"id":"do_Label_26",
-												"text":"配送详情",
+												"text":"饿单详情",
 												"height":"60",
 												"width":"200",
-												"fontStyle":"bold",
+												"fontSize":"28",
 												"type":"do_Label",
-												"fontSize":"20",
 												"x":"20"
 											}
 										],
@@ -574,129 +452,129 @@
 									},
 									{
 										"id":"do_Label_23",
-										"fontColor":"808080FF",
 										"text":"联系人：黄",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"440",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"18",
-										"y":"60",
+										"y":"70",
 										"x":"20"
 									},
 									{
 										"id":"do_Label_24",
-										"fontColor":"808080FF",
 										"text":"送餐电话：246678",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"400",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"18",
-										"y":"120",
+										"y":"140",
 										"x":"20"
 									},
 									{
 										"id":"do_Label_25",
-										"fontColor":"808080FF",
 										"text":"送餐地址：东北大学",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"400",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"18",
-										"y":"180",
+										"y":"210",
 										"x":"20"
 									},
 									{
 										"id":"do_Label_30",
-										"fontColor":"808080FF",
 										"text":"支付方式：在线支付",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"400",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"18",
-										"y":"240",
+										"y":"280",
 										"x":"20"
 									},
 									{
 										"id":"do_Label_28",
-										"fontColor":"808080FF",
 										"text":"下单时间：2015-09-13 18:06",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"400",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"18",
-										"y":"300",
+										"y":"350",
 										"x":"20"
 									},
 									{
 										"id":"do_Label_29",
-										"fontColor":"808080FF",
 										"text":"送达时间：尽快送达",
-										"height":"60",
+										"fontColor":"808080FF",
+										"height":"70",
 										"width":"400",
+										"fontSize":"23",
 										"type":"do_Label",
-										"fontSize":"18",
-										"y":"360",
+										"y":"420",
 										"x":"20"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_ALayout_35",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"60",
+										"y":"70",
 										"x":"20"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_ALayout_36",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"120",
+										"y":"140",
 										"x":"20"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_ALayout_37",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"180",
+										"y":"210",
 										"x":"20"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_ALayout_38",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"240",
+										"y":"280",
 										"x":"20"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_ALayout_39",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"300",
+										"y":"350",
 										"x":"20"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_ALayout_40",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"440",
 										"type":"do_ALayout",
-										"y":"360",
+										"y":"420",
 										"x":"20"
 									}
 								],
 								"width":"480",
-								"margin":"10,0,0,0",
+								"margin":"20,0,10,0",
 								"type":"do_ALayout",
-								"y":"700"
+								"y":"619"
 							}
 						],
 						"width":"480",

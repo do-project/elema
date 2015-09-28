@@ -16,9 +16,9 @@
 				"height":"30",
 				"width":"120",
 				"textAlign":"center",
-				"type":"do_Label",
 				"fontSize":"20",
-				"y":"90"
+				"type":"do_Label",
+				"y":"80"
 			}
 		],
 		"width":"120",

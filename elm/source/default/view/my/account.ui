@@ -4,8 +4,8 @@
 		"height":"854",
 		"views":[
 			{
-				"bgColor":"339DFDFF",
 				"id":"do_ALayout_1",
+				"bgColor":"339DFDFF",
 				"views":[
 					{
 						"id":"action_back",
@@ -14,7 +14,7 @@
 								"id":"do_ImageView_7",
 								"height":"40",
 								"source":"source://image/abc_ic_ab_back_mtrl_am_alpha.png",
-								"width":"30",
+								"width":"35",
 								"type":"do_ImageView",
 								"y":"19",
 								"x":"19"
@@ -25,12 +25,12 @@
 					},
 					{
 						"id":"do_Label_31",
-						"text":"账户信息",
 						"fontColor":"FFFFFFFF",
+						"text":"账户信息",
 						"height":"50",
 						"width":"200",
-						"fontSize":"30",
 						"type":"do_Label",
+						"fontSize":"28",
 						"y":"15",
 						"x":"80"
 					}
@@ -39,18 +39,18 @@
 				"type":"do_ALayout"
 			},
 			{
-				"id":"do_ScrollView_1",
 				"bgColor":"E9E9E9FF",
-				"isShowbar":"true",
+				"id":"do_ScrollView_1",
 				"height":"774",
+				"isShowbar":"true",
 				"views":[
 					{
 						"id":"do_ALayout_2",
 						"height":"850",
 						"views":[
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_3",
+								"bgColor":"FFFFFFFF",
 								"height":"100",
 								"views":[
 									{
@@ -58,18 +58,18 @@
 										"text":"头像",
 										"height":"45",
 										"width":"210",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"30",
 										"x":"30"
 									},
 									{
 										"id":"do_ImageView_6",
 										"source":"source://image/user_center_default_avatar.png",
-										"width":"86",
+										"width":"78",
 										"type":"do_ImageView",
 										"y":"10",
-										"x":"364"
+										"x":"372"
 									}
 								],
 								"width":"480",
@@ -77,8 +77,8 @@
 								"y":"20"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_4",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
@@ -86,26 +86,26 @@
 										"text":"用户名",
 										"height":"45",
 										"width":"210",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"30"
 									},
 									{
 										"id":"do_Label_26",
-										"text":"jgrildfrigf",
 										"fontColor":"C0C0C0FF",
+										"text":"jgrildfrigf",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_27",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -116,8 +116,8 @@
 								"y":"120"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_5",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
@@ -125,26 +125,26 @@
 										"text":"送餐地址",
 										"height":"45",
 										"width":"210",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"30"
 									},
 									{
 										"id":"do_Label_29",
-										"fontColor":"C0C0C0FF",
 										"text":"4个",
+										"fontColor":"C0C0C0FF",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_30",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -155,18 +155,18 @@
 								"y":"180"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_6",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
 										"id":"do_Label_8",
-										"text":"账户设置",
 										"fontColor":"C0C0C0FF",
+										"text":"账户设置",
 										"height":"46",
 										"width":"200",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"30"
 									}
@@ -176,8 +176,8 @@
 								"y":"260"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_7",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
@@ -185,20 +185,20 @@
 										"text":"手机",
 										"height":"45",
 										"width":"160",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"80"
 									},
 									{
 										"id":"do_Label_10",
-										"text":"182********",
 										"fontColor":"C0C0C0FF",
+										"text":"182********",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
@@ -213,8 +213,8 @@
 										"x":"30"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_11",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -225,8 +225,8 @@
 								"y":"320"
 							},
 							{
-								"id":"do_ALayout_8",
 								"bgColor":"FFFFFFFF",
+								"id":"do_ALayout_8",
 								"height":"60",
 								"views":[
 									{
@@ -234,20 +234,20 @@
 										"text":"微信",
 										"height":"45",
 										"width":"160",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"80"
 									},
 									{
 										"id":"do_Label_13",
+										"fontColor":"339DFDFF",
 										"text":"未绑定",
-										"fontColor":"0000FFFF",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
@@ -261,8 +261,8 @@
 										"x":"30"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_14",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -273,8 +273,8 @@
 								"y":"380"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_9",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
@@ -291,26 +291,26 @@
 										"text":"QQ",
 										"height":"45",
 										"width":"160",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"80"
 									},
 									{
 										"id":"do_Label_16",
+										"fontColor":"339DFDFF",
 										"text":"未绑定",
-										"fontColor":"0000FFFF",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_17",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -321,8 +321,8 @@
 								"y":"440"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_10",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
@@ -339,26 +339,26 @@
 										"text":"微博",
 										"height":"45",
 										"width":"160",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"80"
 									},
 									{
 										"id":"do_Label_19",
+										"fontColor":"339DFDFF",
 										"text":"未绑定",
-										"fontColor":"0000FFFF",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_20",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -369,8 +369,8 @@
 								"y":"500"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_11",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
@@ -387,26 +387,26 @@
 										"text":"人人",
 										"height":"45",
 										"width":"160",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"80"
 									},
 									{
 										"id":"do_Label_22",
+										"fontColor":"339DFDFF",
 										"text":"未绑定",
-										"fontColor":"0000FFFF",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_23",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -417,18 +417,18 @@
 								"y":"560"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_12",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
 										"id":"do_Label_5",
-										"text":"安全设置",
 										"fontColor":"C0C0C0FF",
+										"text":"安全设置",
 										"height":"45",
 										"width":"249",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"30"
 									}
@@ -438,19 +438,19 @@
 								"y":"640"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_13",
+								"bgColor":"FFFFFFFF",
 								"height":"60",
 								"views":[
 									{
 										"id":"do_Label_3",
-										"fontColor":"C0C0C0FF",
 										"text":"修改",
+										"fontColor":"C0C0C0FF",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
@@ -459,14 +459,14 @@
 										"text":"密码",
 										"height":"45",
 										"width":"190",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"30"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_7",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -477,8 +477,8 @@
 								"y":"700"
 							},
 							{
-								"id":"do_ALayout_14",
 								"bgColor":"FFFFFFFF",
+								"id":"do_ALayout_14",
 								"height":"60",
 								"views":[
 									{
@@ -486,26 +486,26 @@
 										"text":"每日在线支付限额",
 										"height":"45",
 										"width":"210",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"30"
 									},
 									{
 										"id":"do_Label_2",
-										"text":"50元",
 										"fontColor":"C0C0C0FF",
+										"text":"50元",
 										"height":"45",
 										"width":"210",
 										"textAlign":"right",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"23",
 										"y":"10",
 										"x":"240"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_6",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"

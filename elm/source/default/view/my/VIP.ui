@@ -4,8 +4,8 @@
 		"height":"854",
 		"views":[
 			{
-				"bgColor":"339DFDFF",
 				"id":"do_ALayout_1",
+				"bgColor":"339DFDFF",
 				"views":[
 					{
 						"id":"action_back",
@@ -25,12 +25,12 @@
 					},
 					{
 						"id":"do_Label_1",
-						"text":"饿配送会员卡",
 						"fontColor":"FFFFFFFF",
+						"text":"饿配送会员卡",
 						"height":"50",
 						"width":"312",
-						"fontSize":"30",
 						"type":"do_Label",
+						"fontSize":"28",
 						"y":"15",
 						"x":"80"
 					}
@@ -42,31 +42,31 @@
 				"id":"do_ALayout_2",
 				"views":[
 					{
-						"bgColor":"FFFFFFFF",
 						"id":"do_Button_1",
+						"bgColor":"FFFFFFFF",
 						"text":"查询",
 						"height":"50",
 						"width":"200",
-						"fontSize":"18",
 						"type":"do_Button",
+						"fontSize":"18",
 						"y":"15",
 						"x":"30"
 					},
 					{
-						"bgColor":"00FF00FF",
 						"id":"do_Button_2",
-						"text":"绑定",
+						"bgColor":"00FF00FF",
 						"fontColor":"FFFFFFFF",
+						"text":"绑定",
 						"height":"50",
 						"width":"200",
-						"fontSize":"18",
 						"type":"do_Button",
+						"fontSize":"18",
 						"y":"15",
 						"x":"250"
 					},
 					{
-						"bgColor":"C0C0C0FF",
 						"id":"do_Label_2",
+						"bgColor":"C0C0C0FF",
 						"height":"1",
 						"width":"480",
 						"type":"do_Label"

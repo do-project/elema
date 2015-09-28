@@ -14,6 +14,16 @@ ly_9.on("touch",function(){
 	app.openPage("source://view/my/message.ui")
 });
 
+var ly=ui("ly");
+ly.on("touch",function(){
+	app.openPage("source://view/my/hongbao.ui")
+});
+
+
+var ly_0=ui("ly_0");
+ly_0.on("touch",function(){
+	app.openPage("source://view/my/jifen.ui")
+});
 var ly_8=ui("ly_8");
 ly_8.on("touch",function(){
 	app.openPage("source://view/my/infor.ui")

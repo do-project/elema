@@ -4,29 +4,29 @@
 		"height":"854",
 		"views":[
 			{
-				"bgColor":"339DFDFF",
 				"id":"do_ALayout_1",
+				"bgColor":"339DFDFF",
 				"views":[
 					{
 						"id":"do_Label_8",
-						"text":"教我拍大片",
 						"fontColor":"FFFFFFFF",
+						"text":"教我拍大片",
 						"height":"50",
 						"width":"210",
 						"textAlign":"right",
-						"fontSize":"30",
 						"type":"do_Label",
+						"fontSize":"28",
 						"y":"15",
 						"x":"240"
 					},
 					{
 						"id":"do_Label_9",
-						"text":"美食相册",
 						"fontColor":"FFFFFFFF",
+						"text":"美食相册",
 						"height":"50",
 						"width":"150",
-						"fontSize":"30",
 						"type":"do_Label",
+						"fontSize":"28",
 						"y":"15",
 						"x":"80"
 					},
@@ -37,7 +37,7 @@
 								"id":"do_ImageView_14",
 								"height":"40",
 								"source":"source://image/abc_ic_ab_back_mtrl_am_alpha.png",
-								"width":"30",
+								"width":"35",
 								"type":"do_ImageView",
 								"y":"19",
 								"x":"19"
@@ -59,8 +59,8 @@
 						"height":"50",
 						"width":"60",
 						"fontStyle":"bold",
-						"fontSize":"18",
 						"type":"do_Label",
+						"fontSize":"18",
 						"x":"30"
 					},
 					{
@@ -69,36 +69,36 @@
 						"height":"30",
 						"width":"60",
 						"fontStyle":"bold",
-						"fontSize":"18",
 						"type":"do_Label",
+						"fontSize":"18",
 						"y":"50",
 						"x":"30"
 					},
 					{
-						"bgColor":"C0C0C0FF",
 						"id":"do_Label_3",
+						"bgColor":"C0C0C0FF",
 						"width":"1",
 						"type":"do_Label",
 						"x":"90"
 					},
 					{
 						"id":"do_Label_4",
-						"text":"午餐",
 						"fontColor":"808080FF",
+						"text":"午餐",
 						"height":"50",
 						"width":"136",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"25",
 						"x":"100"
 					},
 					{
 						"id":"do_Label_5",
-						"text":"@饿了么体验店",
 						"fontColor":"808080FF",
+						"text":"@饿了么体验店",
 						"height":"30",
 						"width":"135",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"25",
 						"y":"50",
 						"x":"100"
 					}
@@ -113,7 +113,8 @@
 				"source":"source://image/food_camera_note.png",
 				"width":"300",
 				"type":"do_ImageView",
-				"y":"220"
+				"y":"220",
+				"x":"30"
 			},
 			{
 				"id":"do_ALayout_3",
@@ -124,8 +125,8 @@
 						"text":"了解美食相机",
 						"height":"40",
 						"width":"262",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"25",
 						"y":"20",
 						"x":"30"
 					},
@@ -133,10 +134,10 @@
 						"id":"do_Label_7",
 						"text":"用佳肴挑逗你的味蕾；用美图记录你的心情；",
 						"height":"30",
-						"width":"270",
 						"maxLines":"1",
-						"fontSize":"18",
+						"width":"270",
 						"type":"do_Label",
+						"fontSize":"18",
 						"y":"80",
 						"x":"30"
 					},

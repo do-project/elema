@@ -4,8 +4,8 @@
 		"height":"854",
 		"views":[
 			{
-				"id":"do_ALayout_1",
 				"bgColor":"339DFDFF",
+				"id":"do_ALayout_1",
 				"views":[
 					{
 						"id":"action_back",
@@ -14,7 +14,7 @@
 								"id":"do_ImageView_1",
 								"height":"40",
 								"source":"source://image/abc_ic_ab_back_mtrl_am_alpha.png",
-								"width":"30",
+								"width":"35",
 								"type":"do_ImageView",
 								"y":"19",
 								"x":"19"
@@ -25,11 +25,11 @@
 					},
 					{
 						"id":"do_Label_1",
-						"text":"通知中心",
 						"fontColor":"FFFFFFFF",
+						"text":"通知中心",
 						"width":"259",
+						"fontSize":"28",
 						"type":"do_Label",
-						"fontSize":"30",
 						"x":"80"
 					}
 				],
@@ -50,8 +50,8 @@
 				"text":"无通知消息",
 				"width":"151",
 				"textAlign":"center",
+				"fontSize":"28",
 				"type":"do_Label",
-				"fontSize":"20",
 				"y":"407",
 				"x":"161"
 			}

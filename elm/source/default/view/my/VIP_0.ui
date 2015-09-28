@@ -1,10 +1,10 @@
 {
 	"RootView":{
-		"height":"450",
+		"height":"529",
 		"views":[
 			{
 				"id":"do_ImageView_1",
-				"height":"450",
+				"height":"529",
 				"source":"source://image/VIP_0.png",
 				"width":"400",
 				"type":"do_ImageView"

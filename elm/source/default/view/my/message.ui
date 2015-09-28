@@ -4,8 +4,8 @@
 		"height":"854",
 		"views":[
 			{
-				"bgColor":"339DFDFF",
 				"id":"do_ALayout_1",
+				"bgColor":"339DFDFF",
 				"views":[
 					{
 						"id":"action_back",
@@ -14,7 +14,7 @@
 								"id":"do_ImageView_1",
 								"height":"40",
 								"source":"source://image/abc_ic_ab_back_mtrl_am_alpha.png",
-								"width":"30",
+								"width":"35",
 								"type":"do_ImageView",
 								"y":"19",
 								"x":"19"
@@ -25,12 +25,12 @@
 					},
 					{
 						"id":"do_Label_1",
-						"fontColor":"FFFFFFFF",
 						"text":"设置",
+						"fontColor":"FFFFFFFF",
 						"height":"50",
 						"width":"200",
-						"fontSize":"30",
 						"type":"do_Label",
+						"fontSize":"28",
 						"y":"15",
 						"x":"80"
 					}
@@ -39,19 +39,19 @@
 				"type":"do_ALayout"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_3",
+				"bgColor":"FFFFFFFF",
 				"height":"60",
 				"views":[
 					{
 						"id":"do_Label_12",
-						"fontColor":"C0C0C0FF",
 						"text":"v5.2",
+						"fontColor":"C0C0C0FF",
 						"height":"40",
 						"width":"76",
 						"textAlign":"right",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"10",
 						"x":"388"
 					},
@@ -60,8 +60,8 @@
 						"text":"检测更新",
 						"height":"50",
 						"width":"355",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
 						"x":"30"
 					}
@@ -71,8 +71,8 @@
 				"y":"100"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"ly_0",
+				"bgColor":"FFFFFFFF",
 				"height":"60",
 				"views":[
 					{
@@ -80,20 +80,20 @@
 						"text":"清除图片缓存",
 						"height":"50",
 						"width":"358",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
 						"x":"30"
 					},
 					{
 						"id":"lb_0",
-						"text":"3.6MB",
 						"fontColor":"C0C0C0FF",
+						"text":"3.6MB",
 						"height":"40",
 						"width":"72",
 						"textAlign":"right",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"10",
 						"x":"390"
 					}
@@ -103,19 +103,19 @@
 				"y":"180"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_5",
+				"bgColor":"FFFFFFFF",
 				"height":"60",
 				"views":[
 					{
 						"id":"do_Label_8",
-						"text":"普通",
 						"fontColor":"C0C0C0FF",
+						"text":"普通",
 						"height":"40",
 						"width":"73",
 						"textAlign":"right",
+						"fontSize":"23",
 						"type":"do_Label",
-						"fontSize":"25",
 						"y":"8",
 						"x":"389"
 					},
@@ -124,14 +124,14 @@
 						"text":"非WIFI下图片质量",
 						"height":"50",
 						"width":"360",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
 						"x":"30"
 					},
 					{
-						"id":"do_Label_16",
 						"bgColor":"C0C0C0FF",
+						"id":"do_Label_16",
 						"height":"1",
 						"width":"480",
 						"type":"do_Label"
@@ -142,8 +142,8 @@
 				"y":"240"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_6",
+				"bgColor":"FFFFFFFF",
 				"height":"100",
 				"views":[
 					{
@@ -151,19 +151,19 @@
 						"text":"启动时，自动定位到当前位置",
 						"height":"50",
 						"width":"374",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
 						"x":"30"
 					},
 					{
 						"id":"text",
-						"fontColor":"C0C0C0FF",
 						"text":"关闭自动定位后，每次打开应用会默认使用上一次位置",
+						"fontColor":"C0C0C0FF",
 						"height":"40",
 						"width":"432",
-						"type":"do_Label",
 						"fontSize":"18",
+						"type":"do_Label",
 						"y":"60",
 						"x":"30"
 					},
@@ -190,8 +190,8 @@
 				"y":"320"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_7",
+				"bgColor":"FFFFFFFF",
 				"height":"60",
 				"views":[
 					{
@@ -199,14 +199,14 @@
 						"text":"推送消息",
 						"height":"50",
 						"width":"333",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
 						"x":"30"
 					},
 					{
-						"id":"do_Label_15",
 						"bgColor":"C0C0C0FF",
+						"id":"do_Label_15",
 						"height":"1",
 						"width":"480",
 						"type":"do_Label"
@@ -234,8 +234,8 @@
 				"y":"420"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_8",
+				"bgColor":"FFFFFFFF",
 				"height":"60",
 				"views":[
 					{
@@ -243,8 +243,8 @@
 						"text":"关于饿了么",
 						"height":"50",
 						"width":"300",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
 						"x":"30"
 					}
@@ -254,8 +254,8 @@
 				"y":"500"
 			},
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_9",
+				"bgColor":"FFFFFFFF",
 				"height":"60",
 				"views":[
 					{
@@ -263,14 +263,14 @@
 						"text":"商务合作",
 						"height":"50",
 						"width":"300",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"23",
 						"y":"6",
-						"x":"39"
+						"x":"30"
 					},
 					{
-						"id":"do_Label_14",
 						"bgColor":"C0C0C0FF",
+						"id":"do_Label_14",
 						"height":"1",
 						"width":"480",
 						"type":"do_Label"
@@ -281,18 +281,18 @@
 				"y":"560"
 			},
 			{
-				"bgColor":"DD0000FF",
 				"id":"do_ALayout_10",
+				"bgColor":"DD0000FF",
 				"height":"60",
 				"views":[
 					{
 						"id":"do_Button_1",
-						"fontColor":"FFFFFFFF",
 						"text":"退出登录",
+						"fontColor":"FFFFFFFF",
 						"height":"50",
 						"width":"421",
-						"fontSize":"30",
 						"type":"do_Button",
+						"fontSize":"30",
 						"y":"5"
 					}
 				],

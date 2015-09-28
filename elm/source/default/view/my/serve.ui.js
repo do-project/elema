@@ -36,12 +36,14 @@ ly_1.on("touchDown",function(){
 });
 ly_1.on("touch",function(){
 	ly_1.bgColor="FFFFFFFF";
-	img_1.source="source://image/grey_triangle_up_icon.png";
+	
 	if(linear_1.visible==true){
 		linear_1.visible=false;
+		img_1.source="source://image/grey_triangle_down_icon.png";
 	}
 	else if(linear_1.visible==false){
 		linear_1.visible=true;
+		img_1.source="source://image/grey_triangle_up_icon.png";
 	}
 	;
 });
@@ -51,12 +53,14 @@ ly_2.on("touchDown",function(){
 });
 ly_2.on("touch",function(){
 	ly_2.bgColor="FFFFFFFF";
-	img_2.source="source://image/grey_triangle_up_icon.png";
+	
 	if(linear_2.visible==true){
 		linear_2.visible=false;
+		img_2.source="source://image/grey_triangle_down_icon.png";
 	}
 	else if(linear_2.visible==false){
 		linear_2.visible=true;
+		img_2.source="source://image/grey_triangle_up_icon.png";
 	}
 });
 
@@ -65,12 +69,14 @@ ly_3.on("touchDown",function(){
 });
 ly_3.on("touch",function(){
 	ly_3.bgColor="FFFFFFFF";
-	img_3.source="source://image/grey_triangle_up_icon.png";
+	//img_3.source="source://image/grey_triangle_up_icon.png";
 	if(linear_3.visible==true){
 		linear_3.visible=false;
+		img_3.source="source://image/grey_triangle_down_icon.png";
 	}
 	else if(linear_3.visible==false){
 		linear_3.visible=true;
+		img_3.source="source://image/grey_triangle_up_icon.png";
 	}
 });
 
@@ -79,12 +85,14 @@ ly_4.on("touchDown",function(){
 });
 ly_4.on("touch",function(){
 	ly_4.bgColor="FFFFFFFF";
-	img_4.source="source://image/grey_triangle_up_icon.png";
+	//img_4.source="source://image/grey_triangle_up_icon.png";
 	if(linear_4.visible==true){
 		linear_4.visible=false;
+		img_4.source="source://image/grey_triangle_down_icon.png";
 	}
 	else if(linear_4.visible==false){
 		linear_4.visible=true;
+		img_4.source="source://image/grey_triangle_up_icon.png";
 	}
 });
 
@@ -93,12 +101,14 @@ ly_5.on("touchDown",function(){
 });
 ly_5.on("touch",function(){
 	ly_5.bgColor="FFFFFFFF";
-	img_5.source="source://image/grey_triangle_up_icon.png";
+	//img_5.source="source://image/grey_triangle_up_icon.png";
 	if(linear_5.visible==true){
 		linear_5.visible=false;
+		img_5.source="source://image/grey_triangle_down_icon.png";
 	}
 	else if(linear_5.visible==false){
 		linear_5.visible=true;
+		img_5.source="source://image/grey_triangle_up_icon.png";
 	}
 });
 
@@ -107,11 +117,13 @@ ly_6.on("touchDown",function(){
 });
 ly_6.on("touch",function(){
 	ly_6.bgColor="FFFFFFFF";
-	img_6.source="source://image/grey_triangle_up_icon.png";
+	
 	if(linear_6.visible==true){
 		linear_6.visible=false;
+		img_6.source="source://image/grey_triangle_down_icon.png";
 	}
 	else if(linear_6.visible==false){
 		linear_6.visible=true;
+		img_6.source="source://image/grey_triangle_up_icon.png";
 	}
 });

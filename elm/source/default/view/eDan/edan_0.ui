@@ -1,40 +1,42 @@
 {
 	"RootView":{
 		"bgColor":"FFFFFFFF",
-		"height":"118",
+		"height":"150",
 		"views":[
 			{
 				"id":"do_LinearLayout_1",
-				"height":"26",
+				"height":"40",
 				"direction":"horizontal",
 				"views":[
 					{
 						"id":"state",
-						"height":"26",
+						"height":"40",
 						"width":"-1",
 						"margin":"0,10,0,0",
-						"type":"do_Label"
+						"type":"do_Label",
+						"fontSize":"20"
 					},
 					{
 						"id":"time",
-						"height":"26",
+						"fontColor":"C0C0C0FF",
+						"height":"40",
 						"width":"-1",
 						"type":"do_Label",
+						"fontSize":"20",
 						"x":"9"
 					}
 				],
 				"width":"433",
 				"type":"do_LinearLayout",
-				"y":"8",
-				"x":"12"
+				"y":"10",
+				"x":"20"
 			},
 			{
 				"id":"logo",
-				"height":"45",
-				"width":"54",
+				"width":"80",
 				"type":"do_ImageView",
-				"y":"43",
-				"x":"12"
+				"y":"50",
+				"x":"25"
 			},
 			{
 				"id":"name",
@@ -42,34 +44,38 @@
 				"width":"-1",
 				"fontStyle":"bold",
 				"type":"do_Label",
-				"fontSize":"20",
-				"y":"35",
-				"x":"76"
+				"fontSize":"25",
+				"y":"50",
+				"x":"120"
 			},
 			{
 				"id":"do_LinearLayout_2",
-				"height":"28",
+				"height":"30",
 				"direction":"horizontal",
 				"views":[
 					{
 						"id":"num",
-						"height":"28",
+						"fontColor":"C0C0C0FF",
+						"height":"30",
 						"width":"-1",
-						"type":"do_Label"
+						"type":"do_Label",
+						"fontSize":"20"
 					},
 					{
 						"id":"money",
-						"height":"28",
+						"fontColor":"C0C0C0FF",
+						"height":"30",
 						"width":"-1",
 						"margin":"0,0,0,10",
 						"type":"do_Label",
+						"fontSize":"20",
 						"x":"9"
 					}
 				],
 				"width":"225",
 				"type":"do_LinearLayout",
-				"y":"86",
-				"x":"70"
+				"y":"100",
+				"x":"120"
 			}
 		],
 		"width":"480",

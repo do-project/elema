@@ -5,39 +5,39 @@
 		"views":[
 			{
 				"id":"center",
-				"height":"774",
+				"height":"794",
 				"templates":"source://view/waimai/waimai_01.ui,source://view/eDan/edan.ui,source://view/find/faxian_0.ui,source://view/my/my.ui",
 				"width":"480",
 				"type":"do_SlideView"
 			},
 			{
 				"id":"bar",
-				"direction":"horizontal",
+				"height":"60",
 				"views":[
 					{
 						"id":"ly_0",
+						"height":"60",
 						"views":[
 							{
 								"id":"img_0",
 								"scale":"fillxory",
-								"height":"42",
+								"height":"30",
 								"source":"source://image/ly_0_d.png",
-								"width":"48",
+								"width":"30",
 								"type":"do_ImageView",
 								"y":"8",
-								"x":"35"
+								"x":"45"
 							},
 							{
 								"id":"lb_0",
-								"fontColor":"8080FFFF",
 								"text":"外卖",
-								"height":"30",
-								"width":"80",
+								"fontColor":"8080FFFF",
+								"height":"20",
+								"width":"120",
 								"textAlign":"center",
-								"fontSize":"18",
 								"type":"do_Label",
-								"y":"50",
-								"x":"20"
+								"fontSize":"15",
+								"y":"38"
 							}
 						],
 						"width":"120",
@@ -45,28 +45,28 @@
 					},
 					{
 						"id":"ly_1",
+						"height":"60",
 						"views":[
 							{
 								"id":"img_1",
 								"scale":"fillxory",
-								"height":"42",
+								"height":"30",
 								"source":"source://image/ly_1.png",
-								"width":"48",
+								"width":"30",
 								"type":"do_ImageView",
 								"y":"8",
-								"x":"35"
+								"x":"45"
 							},
 							{
 								"id":"lb_1",
-								"fontColor":"C0C0C0FF",
 								"text":"饿单",
-								"height":"30",
-								"width":"80",
+								"fontColor":"C0C0C0FF",
+								"height":"20",
+								"width":"120",
 								"textAlign":"center",
-								"fontSize":"18",
 								"type":"do_Label",
-								"y":"50",
-								"x":"20"
+								"fontSize":"15",
+								"y":"38"
 							}
 						],
 						"width":"120",
@@ -75,28 +75,28 @@
 					},
 					{
 						"id":"ly_2",
+						"height":"60",
 						"views":[
 							{
 								"id":"img_2",
 								"scale":"fillxory",
-								"height":"42",
-								"source":"source://image/ly_3.png",
-								"width":"48",
+								"height":"30",
+								"source":"source://image/ly_2.png",
+								"width":"30",
 								"type":"do_ImageView",
 								"y":"8",
-								"x":"35"
+								"x":"45"
 							},
 							{
 								"id":"lb_2",
-								"text":"发现",
 								"fontColor":"C0C0C0FF",
-								"height":"30",
-								"width":"80",
+								"text":"发现",
+								"height":"20",
+								"width":"120",
 								"textAlign":"center",
-								"fontSize":"18",
 								"type":"do_Label",
-								"y":"50",
-								"x":"20"
+								"fontSize":"15",
+								"y":"38"
 							}
 						],
 						"width":"120",
@@ -105,28 +105,28 @@
 					},
 					{
 						"id":"ly_3",
+						"height":"60",
 						"views":[
 							{
 								"id":"img_3",
 								"scale":"fillxory",
-								"height":"42",
+								"height":"30",
 								"source":"source://image/ly_3.png",
-								"width":"48",
+								"width":"30",
 								"type":"do_ImageView",
 								"y":"8",
-								"x":"35"
+								"x":"45"
 							},
 							{
 								"id":"lb_3",
-								"text":"我的",
 								"fontColor":"C0C0C0FF",
-								"height":"30",
-								"width":"80",
+								"text":"我的",
+								"height":"20",
+								"width":"120",
 								"textAlign":"center",
-								"fontSize":"18",
 								"type":"do_Label",
-								"y":"50",
-								"x":"20"
+								"fontSize":"15",
+								"y":"38"
 							}
 						],
 						"width":"120",
@@ -134,17 +134,18 @@
 						"x":"360"
 					}
 				],
+				"direction":"horizontal",
 				"width":"480",
 				"type":"do_LinearLayout",
-				"y":"775"
+				"y":"795"
 			},
 			{
-				"id":"do_ALayout_2",
 				"bgColor":"C0C0C0FF",
+				"id":"do_ALayout_2",
 				"height":"1",
 				"width":"480",
 				"type":"do_ALayout",
-				"y":"774"
+				"y":"794"
 			}
 		],
 		"width":"480",

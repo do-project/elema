@@ -1,4 +1,4 @@
-//related to collect.ui
+//related to hongbao.ui
 var nf = sm("do_Notification");
 var app = sm("do_App");
 var page = sm("do_Page");
@@ -17,8 +17,8 @@ var slide_listdata = mm("do_ListData");
 do_slideview_1.bindItems(slide_listdata);
 //segmentview绑定数据
 segment_listdata.addData([
-	{template: 0,title: "餐厅", fontColor : "339DFDFF", lb:true},
-	{template: 0,title: "美食", fontColor : "000000FF", lb:false}
+	{template: 0,title: "可用红包", fontColor : "339DFDFF", lb:true},
+	{template: 0,title: "历史红包", fontColor : "000000FF", lb:false}
 ]);
 do_segmentview_1.refreshItems();
 /***********************************************************/
@@ -27,13 +27,13 @@ var changecolor = function(index){
     segment_listdata.removeAll();
     if (index == 0) {
         segment_listdata.addData([
-        	{template: 0,title: "餐厅", fontColor : "339DFDFF", lb:true},
-        	{template: 0,title: "美食", fontColor : "000000FF", lb:false}
+        	{template: 0,title: "可用红包", fontColor : "339DFDFF", lb:true},
+        	{template: 0,title: "历史红包", fontColor : "000000FF", lb:false}
         ]);
     }else if(index==1){
         segment_listdata.addData([
-            {template: 0,title: "餐厅", fontColor : "000000FF", lb:false},
-            {template: 0,title: "美食", fontColor : "339DFDFF", lb:true}
+            {template: 0,title: "可用红包", fontColor : "000000FF", lb:false},
+            {template: 0,title: "历史红包", fontColor : "339DFDFF", lb:true}
         ]);
     }
  	do_segmentview_1.refreshItems();
@@ -48,8 +48,8 @@ do_segmentview_1.on("indexChanged", function(index){
 /***********************************************************/
 //slideview绑定数据
 slide_listdata.addData([ 
-	{template: 0,img:"source://image/fav_icon_food_empty.png",lb_1:"暂无收藏",lb_2:"还没有收藏过餐厅，快去收藏喜欢的餐厅"},
-	{template: 0,img:"source://image/fav_icon_restaurant_empty.png",lb_1:"暂无收藏",lb_2:"还没有收藏过美食，快去收藏喜欢的美食"},
+	{template: 0},
+	{template: 1},
 ]);
 do_slideview_1.refreshItems();
 

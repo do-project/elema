@@ -1,7 +1,7 @@
 {
 	"RootView":{
 		"bgColor":"E9E9E9FF",
-		"height":"694",
+		"height":"794",
 		"views":[
 			{
 				"bgColor":"339DFDFF",
@@ -12,10 +12,9 @@
 						"fontColor":"FFFFFFFF",
 						"height":"50",
 						"items":"最近一个月,进行中,待点评",
-						"width":"253",
-						"fontStyle":"bold",
+						"width":"192",
 						"type":"do_ComboBox",
-						"fontSize":"25",
+						"fontSize":"30",
 						"y":"14",
 						"x":"24"
 					},
@@ -26,8 +25,7 @@
 						"height":"50",
 						"width":"175",
 						"textAlign":"right",
-						"fontStyle":"bold",
-						"fontSize":"25",
+						"fontSize":"30",
 						"type":"do_Label",
 						"y":"15",
 						"x":"296"
@@ -44,7 +42,7 @@
 				"isFooterVisible":"true",
 				"type":"do_ListView",
 				"isHeaderVisible":"true",
-				"y":"90"
+				"y":"80"
 			}
 		],
 		"width":"480",

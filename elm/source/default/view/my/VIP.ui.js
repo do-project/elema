@@ -24,3 +24,20 @@ listdata.addData([
 ]);
 
 sv_silder0.refreshItems();
+
+var i=1,y=0;
+var timer01 = mm("do_Timer");
+timer01.delay = 0;
+timer01.interval = 50;
+
+var DURATION01 = 0;
+
+timer01.on("tick", function(){
+    if(DURATION01 >= 30){
+        DURATION01 = 0;
+        sv_silder0.index=i%2;
+        i++;
+    }
+    DURATION01++;
+});
+timer01.start();

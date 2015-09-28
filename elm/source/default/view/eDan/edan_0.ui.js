@@ -5,6 +5,6 @@ ui("$").setMapping({
 	"state.text" : "state",
 	"time.text" : "TIME",
 	"money.text" :"MONEY",
-	"num.text" :"NUM",
+	"num.text" :"NUM"
 	
 });
