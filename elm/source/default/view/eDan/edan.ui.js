@@ -21,11 +21,15 @@ listdata.addData([ { NAME : "随园餐厅", LOGO : "source://image/kuai.png",sta
 listview.refreshItems();
 
 listview.on("longTouch", function(index) {
-    app.openPage("source://view/eDan/detail.ui");
+	if(index==0){
+		app.openPage("source://view/eDan/detail.ui");
+	}
 });
 
 listview.on("touch", function(index) {
-	app.openPage("source://view/eDan/detail.ui");
+	if(index==0){
+		app.openPage("source://view/eDan/detail.ui");
+	}
 });
 
 listview.on("pull", function(data) {

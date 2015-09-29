@@ -12,11 +12,11 @@
 						"fontColor":"FFFFFFFF",
 						"height":"50",
 						"items":"最近一个月,进行中,待点评",
-						"width":"192",
+						"width":"-1",
 						"type":"do_ComboBox",
-						"fontSize":"30",
+						"fontSize":"28",
 						"y":"14",
-						"x":"24"
+						"x":"20"
 					},
 					{
 						"id":"do_Label_1",
@@ -25,7 +25,7 @@
 						"height":"50",
 						"width":"175",
 						"textAlign":"right",
-						"fontSize":"30",
+						"fontSize":"28",
 						"type":"do_Label",
 						"y":"15",
 						"x":"296"
@@ -36,7 +36,7 @@
 			},
 			{
 				"id":"do_ListView_1",
-				"height":"684",
+				"height":"714",
 				"templates":"source://view/eDan/edan_0.ui",
 				"width":"480",
 				"isFooterVisible":"true",

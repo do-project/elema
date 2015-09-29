@@ -4,20 +4,20 @@
 		"height":"854",
 		"views":[
 			{
-				"id":"do_ALayout_1",
 				"bgColor":"339DFDFF",
+				"id":"do_ALayout_1",
 				"views":[
 					{
 						"id":"action_back",
 						"views":[
 							{
 								"id":"do_ImageView_1",
-								"height":"35",
+								"height":"40",
 								"source":"source://image/delete.png",
-								"width":"31",
+								"width":"30",
 								"type":"do_ImageView",
 								"y":"20",
-								"x":"15"
+								"x":"20"
 							}
 						],
 						"width":"60",
@@ -25,11 +25,11 @@
 					},
 					{
 						"id":"do_Label_1",
-						"text":"积分商城",
 						"fontColor":"FFFFFFFF",
+						"text":"积分商城",
 						"width":"200",
-						"type":"do_Label",
 						"fontSize":"30",
+						"type":"do_Label",
 						"x":"80"
 					}
 				],
@@ -38,8 +38,8 @@
 			},
 			{
 				"id":"do_ScrollView_1",
-				"height":"774",
 				"isShowbar":"true",
+				"height":"774",
 				"views":[
 					{
 						"id":"do_ALayout_4",
@@ -48,7 +48,7 @@
 							{
 								"id":"gridView",
 								"height":"900",
-								"templates":"source://view/find/shop_2.ui",
+								"templates":"source://view/find/shop_2.ui,source://view/find/shop_12.ui",
 								"width":"480",
 								"numColumns":"2",
 								"type":"do_GridView",
@@ -59,8 +59,8 @@
 								"height":"60",
 								"views":[
 									{
-										"id":"do_Label_2",
 										"bgColor":"C0C0C0FF",
+										"id":"do_Label_2",
 										"height":"40",
 										"width":"1",
 										"type":"do_Label",
@@ -82,11 +82,11 @@
 											},
 											{
 												"id":"do_Label_5",
-												"fontColor":"FF8000FF",
 												"text":"16485",
+												"fontColor":"FF8000FF",
 												"height":"40",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"10",
 												"x":"148"
 											},
@@ -95,8 +95,8 @@
 												"text":"积分",
 												"height":"40",
 												"width":"68",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"10",
 												"x":"80"
 											}
@@ -121,8 +121,8 @@
 												"text":"兑换记录",
 												"height":"40",
 												"width":"141",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"10",
 												"x":"80"
 											}
@@ -142,8 +142,8 @@
 				],
 				"width":"480",
 				"type":"do_ScrollView",
-				"isHeaderVisible":"true",
-				"y":"80"
+				"y":"80",
+				"isHeaderVisible":"true"
 			}
 		],
 		"width":"480",

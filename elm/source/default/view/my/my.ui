@@ -1,21 +1,21 @@
 {
 	"RootView":{
-		"bgColor":"E9E9E9FF",
 		"id":"bg",
+		"bgColor":"E9E9E9FF",
 		"height":"794",
 		"views":[
 			{
-				"bgColor":"339DFDFF",
 				"id":"ly_0",
+				"bgColor":"339DFDFF",
 				"views":[
 					{
 						"id":"do_Label_38",
-						"text":"我的",
 						"fontColor":"FFFFFFFF",
+						"text":"我的",
 						"height":"57",
 						"width":"109",
-						"type":"do_Label",
 						"fontSize":"30",
+						"type":"do_Label",
 						"y":"10",
 						"x":"24"
 					},
@@ -60,17 +60,17 @@
 			},
 			{
 				"id":"do_ScrollView_2",
+				"height":"714",
 				"isShowbar":"true",
-				"height":"694",
 				"views":[
 					{
-						"bgColor":"E5E5E5FF",
 						"id":"do_ALayout_15",
-						"height":"810",
+						"bgColor":"E5E5E5FF",
+						"height":"820",
 						"views":[
 							{
-								"bgColor":"339DFDFF",
 								"id":"ly_1",
+								"bgColor":"339DFDFF",
 								"height":"160",
 								"views":[
 									{
@@ -103,23 +103,23 @@
 									},
 									{
 										"id":"do_Label_26",
-										"text":"182********",
 										"fontColor":"FFFFFFFF",
+										"text":"182********",
 										"height":"27",
 										"width":"189",
-										"type":"do_Label",
 										"fontSize":"18",
+										"type":"do_Label",
 										"y":"85",
 										"x":"159"
 									},
 									{
 										"id":"do_Label_27",
-										"text":"jgrildfrigf",
 										"fontColor":"FFFFFFFF",
+										"text":"jgrildfrigf",
 										"height":"40",
 										"width":"300",
-										"type":"do_Label",
 										"fontSize":"25",
+										"type":"do_Label",
 										"y":"35",
 										"x":"134"
 									}
@@ -132,40 +132,40 @@
 								"height":"100",
 								"views":[
 									{
-										"id":"balace",
 										"bgColor":"FFFFFFFF",
+										"id":"balace",
 										"height":"100",
 										"views":[
 											{
 												"id":"do_Label_28",
-												"fontColor":"FF0000FF",
 												"text":"0.00",
+												"fontColor":"FF0000FF",
 												"height":"39",
 												"width":"105",
 												"textAlign":"right",
-												"fontSize":"30",
 												"type":"do_Label",
+												"fontSize":"30",
 												"y":"6"
 											},
 											{
 												"id":"do_Label_29",
-												"text":"我的余额",
 												"fontColor":"C0C0C0FF",
+												"text":"我的余额",
 												"height":"41",
 												"width":"160",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"47"
 											},
 											{
 												"id":"do_Label_30",
-												"fontColor":"FF0000FF",
 												"text":"元",
+												"fontColor":"FF0000FF",
 												"height":"29",
 												"width":"34",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"18",
 												"x":"105"
 											}
@@ -174,47 +174,47 @@
 										"type":"do_ALayout"
 									},
 									{
-										"id":"ly_0",
 										"bgColor":"FFFFFFFF",
+										"id":"ly_0",
 										"height":"100",
 										"views":[
 											{
 												"id":"do_Label_31",
-												"text":"我的积分",
 												"fontColor":"C0C0C0FF",
+												"text":"我的积分",
 												"height":"43",
 												"width":"160",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"45"
 											},
 											{
 												"id":"do_Label_32",
-												"text":"分",
 												"fontColor":"00FF00FF",
+												"text":"分",
 												"height":"29",
 												"width":"22",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"17",
 												"x":"118"
 											},
 											{
 												"id":"do_Label_33",
-												"text":"16485",
 												"fontColor":"00FF00FF",
+												"text":"16485",
 												"height":"39",
 												"width":"119",
 												"textAlign":"right",
-												"fontSize":"30",
 												"type":"do_Label",
+												"fontSize":"30",
 												"y":"6",
 												"x":"-1"
 											},
 											{
-												"bgColor":"C0C0C0FF",
 												"id":"do_Label_55",
+												"bgColor":"C0C0C0FF",
 												"height":"100",
 												"width":"1",
 												"type":"do_Label"
@@ -225,47 +225,47 @@
 										"x":"320"
 									},
 									{
-										"id":"ly",
 										"bgColor":"FFFFFFFF",
+										"id":"ly",
 										"height":"100",
 										"views":[
 											{
 												"id":"do_Label_34",
-												"text":"我的红包",
 												"fontColor":"C0C0C0FF",
+												"text":"我的红包",
 												"height":"42",
 												"width":"160",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"46"
 											},
 											{
 												"id":"do_Label_35",
-												"fontColor":"FF8040FF",
 												"text":"个",
+												"fontColor":"FF8040FF",
 												"height":"29",
 												"width":"34",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"18",
 												"x":"80"
 											},
 											{
 												"id":"do_Label_36",
-												"fontColor":"FF8000FF",
 												"text":"0",
+												"fontColor":"FF8000FF",
 												"height":"39",
 												"width":"78",
 												"textAlign":"right",
-												"fontSize":"30",
 												"type":"do_Label",
+												"fontSize":"30",
 												"y":"7",
 												"x":"2"
 											},
 											{
-												"bgColor":"C0C0C0FF",
 												"id":"do_Label_54",
+												"bgColor":"C0C0C0FF",
 												"height":"100",
 												"width":"1",
 												"type":"do_Label"
@@ -276,8 +276,8 @@
 										"x":"160"
 									},
 									{
-										"bgColor":"400040FF",
 										"id":"do_Label_47",
+										"bgColor":"400040FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label",
@@ -289,8 +289,8 @@
 								"y":"160"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_2",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -308,8 +308,8 @@
 										"text":"我的收藏",
 										"height":"70",
 										"width":"254",
-										"fontSize":"23",
 										"type":"do_Label",
+										"fontSize":"23",
 										"x":"67"
 									}
 								],
@@ -318,8 +318,8 @@
 								"y":"280"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_4",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -337,8 +337,8 @@
 										"text":"积分商城",
 										"height":"70",
 										"width":"254",
-										"type":"do_Label",
 										"fontSize":"23",
+										"type":"do_Label",
 										"x":"67"
 									}
 								],
@@ -347,8 +347,8 @@
 								"y":"440"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_3",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -366,13 +366,13 @@
 										"text":"美食相册",
 										"height":"70",
 										"width":"254",
-										"type":"do_Label",
 										"fontSize":"23",
+										"type":"do_Label",
 										"x":"67"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_49",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -383,8 +383,8 @@
 								"y":"350"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_5",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -402,13 +402,13 @@
 										"text":"饿配送会员卡",
 										"height":"70",
 										"width":"254",
-										"type":"do_Label",
 										"fontSize":"23",
+										"type":"do_Label",
 										"x":"67"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_51",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -419,8 +419,8 @@
 								"y":"510"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_10",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -438,8 +438,8 @@
 										"text":"服务中心",
 										"height":"70",
 										"width":"254",
-										"type":"do_Label",
 										"fontSize":"23",
+										"type":"do_Label",
 										"x":"67"
 									}
 								],
@@ -448,8 +448,8 @@
 								"y":"600"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_6",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -467,13 +467,13 @@
 										"text":"推荐饿了么给好友",
 										"height":"70",
 										"width":"305",
-										"fontSize":"23",
 										"type":"do_Label",
+										"fontSize":"23",
 										"x":"67"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_53",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
@@ -484,8 +484,8 @@
 								"y":"670"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"ly_7",
+								"bgColor":"FFFFFFFF",
 								"height":"70",
 								"views":[
 									{
@@ -503,13 +503,13 @@
 										"text":"喜欢饿了么？鼓励下",
 										"height":"70",
 										"width":"315",
-										"fontSize":"23",
 										"type":"do_Label",
+										"fontSize":"23",
 										"x":"67"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_52",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"

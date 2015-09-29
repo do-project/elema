@@ -18,12 +18,12 @@ listdata = mm("do_ListData");
 grid_view.bindItems(listdata);
 
 var _datas = [
-              {"img":"source://image/jifen_1.jpg"},
-              {"img":"source://image/jifen_2.jpg"},
-              {"img":"source://image/jifen_3.jpg"},
-              {"img":"source://image/jifen_4.jpg"},
-              {"img":"source://image/jifen_5.jpg"},
-              {"img":"source://image/jifen_6.jpg"}
+              {template:0,"img":"source://image/jifen_1.jpg"},
+              {template:1,"img":"source://image/jifen_2.jpg"},
+              {template:0,"img":"source://image/jifen_3.jpg"},
+              {template:1,"img":"source://image/jifen_4.jpg"},
+              {template:0,"img":"source://image/jifen_5.jpg"},
+              {template:1,"img":"source://image/jifen_6.jpg"}
              ]
              
 listdata.addData(_datas);

@@ -24,7 +24,7 @@
 						"type":"do_ALayout"
 					},
 					{
-						"id":"lb",
+						"id":"title",
 						"fontColor":"FFFFFFFF",
 						"text":"随缘餐厅",
 						"width":"300",
@@ -186,7 +186,7 @@
 										"height":"70",
 										"views":[
 											{
-												"id":"do_ImageView_5",
+												"id":"img",
 												"height":"41",
 												"source":"source://image/kuai.png",
 												"width":"41",
@@ -205,7 +205,7 @@
 												"x":"445"
 											},
 											{
-												"id":"do_Label_7",
+												"id":"title_0",
 												"text":"随缘餐厅",
 												"height":"70",
 												"width":"200",
@@ -332,7 +332,7 @@
 										"views":[
 											{
 												"id":"listview",
-												"height":"-1",
+												"height":"211",
 												"templates":"source://view/eDan/detail_cell0.ui",
 												"width":"480",
 												"type":"do_ListView"
@@ -365,7 +365,7 @@
 												],
 												"width":"480",
 												"type":"do_ALayout",
-												"y":"-1"
+												"y":"211"
 											}
 										],
 										"width":"480",
@@ -420,14 +420,14 @@
 							{
 								"id":"do_ALayout_33",
 								"bgColor":"FFFFFFFF",
-								"height":"560",
+								"height":"490",
 								"views":[
 									{
 										"id":"do_ALayout_34",
 										"height":"70",
 										"views":[
 											{
-												"id":"do_Label_27",
+												"id":"num",
 												"text":"饿单号：1001 1406 3254 3256 45",
 												"fontColor":"808080FF",
 												"height":"60",
@@ -451,7 +451,7 @@
 										"type":"do_ALayout"
 									},
 									{
-										"id":"do_Label_23",
+										"id":"lb_1",
 										"text":"联系人：黄",
 										"fontColor":"808080FF",
 										"height":"70",
@@ -462,7 +462,7 @@
 										"x":"20"
 									},
 									{
-										"id":"do_Label_24",
+										"id":"lb_2",
 										"text":"送餐电话：246678",
 										"fontColor":"808080FF",
 										"height":"70",
@@ -473,7 +473,7 @@
 										"x":"20"
 									},
 									{
-										"id":"do_Label_25",
+										"id":"lb_3",
 										"text":"送餐地址：东北大学",
 										"fontColor":"808080FF",
 										"height":"70",
@@ -484,7 +484,7 @@
 										"x":"20"
 									},
 									{
-										"id":"do_Label_30",
+										"id":"lb_4",
 										"text":"支付方式：在线支付",
 										"fontColor":"808080FF",
 										"height":"70",
@@ -495,7 +495,7 @@
 										"x":"20"
 									},
 									{
-										"id":"do_Label_28",
+										"id":"lb_5",
 										"text":"下单时间：2015-09-13 18:06",
 										"fontColor":"808080FF",
 										"height":"70",
@@ -506,7 +506,7 @@
 										"x":"20"
 									},
 									{
-										"id":"do_Label_29",
+										"id":"lb_6",
 										"text":"送达时间：尽快送达",
 										"fontColor":"808080FF",
 										"height":"70",

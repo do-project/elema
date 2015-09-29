@@ -1,6 +1,5 @@
 {
 	"RootView":{
-		"bgColor":"FFFFFFFF",
 		"height":"300",
 		"views":[
 			{
@@ -9,7 +8,7 @@
 				"width":"210",
 				"type":"do_ImageView",
 				"y":"20",
-				"x":"20"
+				"x":"10"
 			}
 		],
 		"width":"240",
