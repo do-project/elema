@@ -1,4 +1,4 @@
-//related to waimai_002.ui
+//related to waimai_005.ui
 ui("$").setMapping({
 	"logo.source" : "logo",
 	"title.text" : "name",

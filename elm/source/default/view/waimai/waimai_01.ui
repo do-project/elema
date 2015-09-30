@@ -4,9 +4,8 @@
 		"height":"794",
 		"views":[
 			{
-				"id":"linear",
 				"bgColor":"339DFDFF",
-				"direction":"horizontal",
+				"id":"linear",
 				"views":[
 					{
 						"id":"do_ImageView_1",
@@ -23,8 +22,8 @@
 						"height":"50",
 						"width":"-1",
 						"margin":"15,0,0,0",
-						"fontSize":"25",
 						"type":"do_Label",
+						"fontSize":"25",
 						"x":"40"
 					},
 					{
@@ -37,13 +36,14 @@
 						"x":"49"
 					}
 				],
+				"direction":"horizontal",
 				"width":"410",
 				"type":"do_LinearLayout"
 			},
 			{
 				"id":"scrollview",
+				"height":"714",
 				"isShowbar":"true",
-				"height":"694",
 				"views":[
 					{
 						"id":"do_ALayout_1",
@@ -58,15 +58,15 @@
 							},
 							{
 								"id":"do_ListView_2",
-								"height":"720",
-								"templates":"source://view/waimai/waimai_002.ui",
+								"height":"1260",
+								"templates":"source://view/waimai/waimai_002.ui,source://view/waimai/waimai_003.ui,source://view/waimai/waimai_004.ui,source://view/waimai/waimai_005.ui",
 								"width":"480",
 								"type":"do_ListView",
 								"y":"450"
 							},
 							{
-								"bgColor":"FFFFFFFF",
 								"id":"do_ALayout_2",
+								"bgColor":"FFFFFFFF",
 								"height":"50",
 								"views":[
 									{
@@ -74,14 +74,14 @@
 										"height":"50",
 										"views":[
 											{
-												"bgColor":"FFFFFFFF",
 												"id":"choose_1",
+												"bgColor":"FFFFFFFF",
 												"fontColor":"000000FF",
 												"height":"50",
 												"items":"分类,全部商家,品牌商家,快餐类,正餐类,小吃零食,甜品饮品",
 												"width":"160",
-												"type":"do_ComboBox",
-												"fontSize":"20"
+												"fontSize":"20",
+												"type":"do_ComboBox"
 											}
 										],
 										"width":"160",
@@ -92,13 +92,13 @@
 										"height":"50",
 										"views":[
 											{
-												"bgColor":"FFFFFFFF",
 												"id":"choose_2",
+												"bgColor":"FFFFFFFF",
 												"height":"50",
 												"items":"排序,起送价最低,送餐速度最快,距离最近,销量最高,评价最好",
 												"width":"160",
-												"type":"do_ComboBox",
-												"fontSize":"20"
+												"fontSize":"20",
+												"type":"do_ComboBox"
 											}
 										],
 										"width":"160",
@@ -110,13 +110,13 @@
 										"height":"50",
 										"views":[
 											{
-												"bgColor":"FFFFFFFF",
 												"id":"choose_3",
+												"bgColor":"FFFFFFFF",
 												"height":"50",
 												"items":"筛选,优惠活动全部商家,新用户优惠下单立减,赠品优惠,专享红包,在线支付",
 												"width":"160",
-												"type":"do_ComboBox",
-												"fontSize":"20"
+												"fontSize":"20",
+												"type":"do_ComboBox"
 											}
 										],
 										"width":"160",
@@ -124,8 +124,8 @@
 										"x":"320"
 									},
 									{
-										"id":"do_Label_2",
 										"bgColor":"C0C0C0FF",
+										"id":"do_Label_2",
 										"height":"30",
 										"width":"1",
 										"type":"do_Label",
@@ -133,8 +133,8 @@
 										"x":"160"
 									},
 									{
-										"id":"do_Label_3",
 										"bgColor":"C0C0C0FF",
+										"id":"do_Label_3",
 										"height":"30",
 										"width":"1",
 										"type":"do_Label",
@@ -142,15 +142,15 @@
 										"x":"320"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_4",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label"
 									},
 									{
-										"bgColor":"C0C0C0FF",
 										"id":"do_Label_5",
+										"bgColor":"C0C0C0FF",
 										"height":"1",
 										"width":"480",
 										"type":"do_Label",
@@ -162,10 +162,10 @@
 								"y":"400"
 							},
 							{
-								"id":"grid",
 								"bgColor":"FFFFFFFF",
-								"height":"240",
+								"id":"grid",
 								"isShowbar":"false",
+								"height":"240",
 								"templates":"source://view/waimai/head.ui,source://view/waimai/head0.ui",
 								"width":"480",
 								"numColumns":"4",
@@ -179,12 +179,12 @@
 				],
 				"width":"480",
 				"type":"do_ScrollView",
-				"isHeaderVisible":"true",
-				"y":"80"
+				"y":"80",
+				"isHeaderVisible":"true"
 			},
 			{
-				"bgColor":"339DFDFF",
 				"id":"search",
+				"bgColor":"339DFDFF",
 				"views":[
 					{
 						"id":"image",

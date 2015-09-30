@@ -1,4 +1,4 @@
-//related to waimai_002.ui
+//related to waimai_004.ui
 ui("$").setMapping({
 	"logo.source" : "logo",
 	"title.text" : "name",
@@ -14,10 +14,7 @@ ui("$").setMapping({
 	"lb_3.text":"lb_3",
 	"lb_4.text":"lb_4",
 	"hd_0.text":"hd_0",
-	"hd_1.text":"hd_1",
 	"hd_3.text":"hd_3",
-	"hd_2.text":"hd_2",
-	"hd_3.bgColor":"color0",
-	"hd_2.bgColor":"color1",
+	"hd_3.bgColor":"color0"
 	
 });

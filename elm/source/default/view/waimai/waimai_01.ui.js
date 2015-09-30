@@ -3,6 +3,7 @@ var nf = sm("do_Notification");
 var app = sm("do_App");
 var page = sm("do_Page");
 var global = sm("do_Global");
+var storage = sm("do_Storage");
 
 var  bdlocation= sm("do_BaiduLocation");
 var address=ui("lb_address");
@@ -62,14 +63,10 @@ listdata = mm("do_ListData");
 
 listview.bindItems(listdata);
 
-listdata.addData([ { "logo":"source://image/kuai.png","name":"随缘餐厅","num":"(56)","month":"月售841份","1":"source://image/icon_star_golden.png","2":"source://image/icon_star_golden.png","3":"source://image/icon_star_golden.png","4":"source://image/icon_star_golden.png","5":"source://image/icon_star_gray.png","juli":"28分钟/901米","money":"¤10" },
-                   { "logo":"source://image/shiwei.png","name":"拾味","num":"(121)","month":"月售345份","1":"source://image/icon_star_golden.png","2":"source://image/icon_star_golden.png","3":"source://image/icon_star_golden.png","4":"source://image/icon_star_golden.png","5":"source://image/icon_star_gray.png","juli":"28分钟/673米","money":"¤10" },
-                   { "logo":"source://image/shuiguo.png","name":"水果蛋糕房","num":"","month":"月售4份","1":"source://image/icon_star_golden.png","2":"source://image/icon_star_golden.png","3":"source://image/icon_star_gray.png","4":"source://image/icon_star_gray.png","5":"source://image/icon_star_gray.png","juli":"16.33千米","money":"¤336" },
-                   { "logo":"source://image/mala.png","name":"辣火火麻辣海鲜","num":"(209)","month":"月售441份","1":"source://image/icon_star_golden.png","2":"source://image/icon_star_golden.png","3":"source://image/icon_star_golden.png","4":"source://image/icon_star_golden.png","5":"source://image/icon_star_gray.png","juli":"50分钟/16.47千米","money":"¤300" },
-                   { "logo":"source://image/fensi.png","name":"正宗福记老鸭粉","num":"(123)","month":"月售1499份","1":"source://image/icon_star_golden.png","2":"source://image/icon_star_golden.png","3":"source://image/icon_star_golden.png","4":"source://image/icon_star_golden.png","5":"source://image/icon_star_gray.png","juli":"26分钟/3.35千米","money":"¤20" },
-                   { "logo":"source://image/kfc.png","name":"随缘餐厅","num":"(118)","month":"月售1405份","1":"source://image/icon_star_golden.png","2":"source://image/icon_star_golden.png","3":"source://image/icon_star_golden.png","4":"source://image/icon_star_golden.png","5":"source://image/icon_star_gray.png","juli":"21分钟/1.18千米","money":"¤0" },
-                    ]);
-//listview.refreshItems();
+storage.readFile("data://waimai.json", function(data){// 读取文件
+    listdata.addData(data); // 给ListData添加数据
+    listview.refreshItems(); // 刷新ListView 行数据;
+});
 
 listview.on("longTouch", function(index) {
     nf.alert(listdata.getOne(index), "longTouch");

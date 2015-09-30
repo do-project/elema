@@ -8,7 +8,7 @@
 				"height":"45",
 				"width":"45",
 				"type":"do_ImageView",
-				"y":"23",
+				"y":"13",
 				"x":"38"
 			},
 			{
@@ -16,9 +16,9 @@
 				"height":"30",
 				"width":"120",
 				"textAlign":"center",
-				"type":"do_Label",
 				"fontSize":"20",
-				"y":"80"
+				"type":"do_Label",
+				"y":"70"
 			}
 		],
 		"width":"120",
