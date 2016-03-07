@@ -1,0 +1,18 @@
+{
+	"RootView":{
+		"height":"529",
+		"views":[
+			{
+				"id":"do_ImageView_1",
+				"height":"529",
+				"source":"source://image/VIP_0.png",
+				"width":"400",
+				"type":"do_ImageView"
+			}
+		],
+		"width":"400",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"RootView":{
+		"bgColor":"339DFDFF",
+		"id":"ly_1",
+		"height":"854",
+		"views":[
+			{
+				"bgColor":"529AFCFF",
+				"id":"logo",
+				"height":"854",
+				"source":"source://image/splash.png",
+				"width":"480",
+				"type":"do_ImageView"
+			}
+		],
+		"width":"480",
+		"type":"do_ALayout"
+	}
+}
